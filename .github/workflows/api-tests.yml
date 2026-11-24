@@ -22,4 +22,4 @@ jobs:
           node-version: 20
 
       - name: Run Postman collection
-        run: npx newman run GameVerse_API.json
+        run: npx newman run API.postman_collection.json
